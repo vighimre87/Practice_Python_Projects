@@ -24,3 +24,7 @@
 #   print(f'{num} is not evenly divisible by {check}')
 
 
+# List Less Than Ten
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+b = []
+print([x for x in a if x < 5])
